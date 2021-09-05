@@ -37,6 +37,17 @@ require('packer').startup(function()
   use 'hrsh7th/cmp-nvim-lsp'
   use 'saadparwaiz1/cmp_luasnip'
   use 'L3MON4D3/LuaSnip' -- Snippets plugin
+
+  -- TODO Move these to modules
+  -- Personal
+  use 'Mxrcon/nextflow-vim'
+  use 'liuchengxu/vim-which-key'
+  -- Henrik
+  use 'tpope/vim-surround'
+  use 'justinmk/vim-sneak'
+  -- mjbach
+  use 'nvim-telescope/telescope-fzf-native.nvim'
+  use 'kristijanhusak/orgmode.nvim'
 end)
 
 --Set highlight on search
