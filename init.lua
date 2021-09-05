@@ -327,5 +327,6 @@ cmp.setup {
 
 -- Personal
 require('personal')
+require('bach')
 
 -- vim: ts=2 sts=2 sw=2 et
