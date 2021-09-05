@@ -313,4 +313,8 @@ cmp.setup {
     { name = 'luasnip' },
   },
 }
+
+-- Personal
+require('personal')
+
 -- vim: ts=2 sts=2 sw=2 et
