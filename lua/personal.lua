@@ -1,5 +1,7 @@
 -- keybinds
 vim.api.nvim_set_keymap('n', '<leader>m', [[<cmd>lua require('telescope.builtin').keymaps()<CR>]], { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader><space>', [[<cmd>lua require('telescope.builtin').find_files({previewer = false})<CR>]], { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>bb', [[<cmd>lua require('telescope.builtin').buffers()<CR>]], { noremap = true, silent = true })
 
 -- orgmode
 require('orgmode').setup({
