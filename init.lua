@@ -40,7 +40,7 @@ require('packer').startup(function(use)
   use 'tpope/vim-surround'
   use 'justinmk/vim-sneak'
   -- mjbach
-  use 'kristijanhusak/orgmode.nvim'
+  use 'nvim-orgmode/orgmode'
   if is_bootstrap then
     require('packer').sync()
   end
