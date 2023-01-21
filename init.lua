@@ -36,6 +36,7 @@ require('packer').startup(function(use)
   -- Personal
   use 'Mxrcon/nextflow-vim'
   use 'liuchengxu/vim-which-key'
+  use 'wuelnerdotexe/vim-astro'
   -- Henrik
   use 'tpope/vim-surround'
   use 'justinmk/vim-sneak'
@@ -404,6 +405,8 @@ cmp.setup {
 
 -- Personal
 require('personal')
+-- let g:astro_typescript = 'enable'
+-- let g:astro_stylus = 'enable'
 
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
