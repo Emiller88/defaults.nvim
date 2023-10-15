@@ -75,6 +75,7 @@ local plugins = {
   --   "mg979/vim-visual-multi",
   --   lazy = false,
   -- }
+  {"ThePrimeagen/harpoon"},
 }
 
 return plugins
